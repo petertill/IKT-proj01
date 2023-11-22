@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 90px;
+}
+
+.nav-title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    justify-self: flex-end;
+    display: flex;
+    /* space evenly */
+    justify-content:right;
+    gap: 10px;
+    width: 50%;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
