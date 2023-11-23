@@ -4,9 +4,48 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #ECE3CE;
+    --text-color: #3A4D39;
+    --green: #739072;
+    --darker-green: #4F6F52;
+    --margin: 20px;
+    --radius: 20px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* Szövegek */
+h1 {
+    color: var(--bg-color);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 45px;
+}
+
+h2 {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: var(--margin);
+
+}
+
+p {
+    margin: auto;
+    text-align: justify;
+    width: 50%;
+    margin-bottom: var(--margin);
+    font-weight: bold;
+}
+
 nav {
     width: 100%;
-    background-color: cadetblue;
+    background-color: var(--darker-green);
+    color: var(--bg-color);
     position: fixed;
     top: 0;
     display: flex;
@@ -14,12 +53,15 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     height: 90px;
+    border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .nav-title {
     width: 100%;
     font-weight: bold;
     font-size: 25px;
+    text-decoration: none;
+    color: var(--bg-color);
 }
 
 .nav-links {
@@ -30,11 +72,54 @@ nav {
     justify-content:right;
     gap: 10px;
     width: 50%;
+    border-radius: var(--radius);
 }
 
 .nav-link {
     text-decoration: none;
     padding: 10px;
-    background-color: black;
     color: white;
+}
+
+.nav-link:hover {
+    background-color: var(--green);
+    border-radius: 5px;
+}
+
+header {
+    padding: 50vh 0;
+    text-align: center;
+
+    height: 100vh;
+    background-color: var(--green);
+}
+
+#header-cim {
+    margin-bottom: 20px;
+}
+
+#header-leiras {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+main {
+    /*margin-top: 100px;*/
+}
+
+table, th, td {
+    border: 5px solid var(--darker-green);
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+
+}
+
+hr {
+    border: 1px dashed var(--darker-green);
+    width: 80%;
+    margin: auto;
 }
