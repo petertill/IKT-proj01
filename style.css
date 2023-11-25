@@ -17,6 +17,8 @@ body {
     background-color: var(--bg-color);
 }
 
+a {text-decoration: none;}
+
 /* Szövegek */
 h1 {
     color: var(--bg-color);
