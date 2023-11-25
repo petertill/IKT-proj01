@@ -89,6 +89,11 @@ nav {
 header {
     padding: 50vh 0;
     text-align: center;
+    background-image: url("./tehen.png");
+    background-repeat: no-repeat;
+    /* image is half outside of the screen so only the cows head is shown */
+    background-position: -10% 50%;
+    background-size: 50%;
 
     height: 100vh;
     background-color: var(--green);
@@ -101,7 +106,7 @@ header {
 #header-leiras {
     margin: auto;
     width: 50%;
-    text-align: left;
+    text-align: center;
 }
 
 main {
