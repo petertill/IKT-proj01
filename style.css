@@ -132,3 +132,58 @@ hr {
     width: 80%;
     margin: auto;
 }
+/* A kártya bal oldalán van a kép, a jobb oldalán a szöveg */
+.kartya {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    border-radius: var(--radius);
+    background-color: var(--green);
+    color: var(--bg-color);
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+}
+.kartya:hover {
+    background-color:antiquewhite;
+    color: var(--text-color);
+    border: 5px solid var(--text-color);
+    cursor: pointer;
+}
+figure.kartyakep {
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+.kartyakep {
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+.kartyaszoveg {
+    width: 50%;
+    margin-left: 20px;
+}
+.kartyaszoveg p {
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+
+}
+/*.kartya {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: var(--radius);
+    background-color: var(--green);
+    color: var(--bg-color);
+}*/
