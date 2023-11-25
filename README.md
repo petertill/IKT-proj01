@@ -1,7 +1,7 @@
 # IKT Projektmunka feladat
 
 Csapat: 
-* Bálint
-* Peti
-* Roland
-* Zsombi
+* Tóth Bálint
+* Till Péter
+* Nagy Zsombor
+* Maklári Roland
