@@ -36,7 +36,20 @@ h2 {
 
 }
 
-p, ol {
+h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: wavy underline;
+    text-decoration-color: var(--green);
+    margin-bottom: var(--margin);
+}
+
+ol, ul {
+    margin-bottom: var(--margin);
+}
+
+p, ol, .nagyul {
     margin: auto;
     text-align: justify;
     width: 50%;
@@ -58,8 +71,6 @@ ul, li {
     margin-left: 15px;
     font-weight: normal;
 }
-
-
 
 nav {
     width: 100%;
