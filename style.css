@@ -36,13 +36,30 @@ h2 {
 
 }
 
-p {
+p, ol {
     margin: auto;
     text-align: justify;
     width: 50%;
     margin-bottom: var(--margin);
     font-weight: bold;
 }
+
+ol {
+    font-weight: normal;
+}
+
+ol > li {
+    font-size: larger;
+    font-weight: bold;
+}
+
+ul, li {
+    font-size:medium;
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+
 
 nav {
     width: 100%;
@@ -116,7 +133,11 @@ main {
 }
 
 .content {
-    margin-top: 100px;
+    margin-top: 120px;
+}
+.content h1 {
+    color: var(--text-color);
+    text-align: center;
 }
 
 table, th, td {
