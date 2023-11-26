@@ -137,6 +137,7 @@ header {
     margin: auto;
     width: 50%;
     text-align: center;
+    color: var(--bg-color);
 }
 
 main {
