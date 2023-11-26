@@ -17,7 +17,7 @@ body {
     background-color: var(--bg-color);
 }
 
-a {text-decoration: none;}
+a {text-decoration: none; color:crimson}
 
 /* Szövegek */
 h1 {
@@ -45,7 +45,7 @@ h3 {
     margin-bottom: var(--margin);
 }
 
-ol, ul {
+ol {
     margin-bottom: var(--margin);
 }
 
@@ -122,7 +122,7 @@ header {
     background-image: url("./tehen.png");
     background-repeat: no-repeat;
     /* image is half outside of the screen so only the cows head is shown */
-    background-position: -10% 50%;
+    background-position: -10% 100%;
     background-size: 50%;
 
     height: 100vh;
@@ -140,7 +140,8 @@ header {
 }
 
 main {
-    /*margin-top: 100px;*/
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .content {
@@ -208,6 +209,45 @@ figure.kartyakep {
     text-align: justify;
     width: 100%;
 
+}
+
+.kep {
+    border-radius: var(--radius);
+    background-color: var(--darker-green);
+    width:320px;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.kep img {
+    border-radius: var(--radius);
+    width: 100%;
+    height: auto;
+}
+
+.kep figcaption {
+    text-align: center;
+    color: var(--bg-color);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.gomb {
+    display: block;
+    margin: auto;
+    background-color: var(--darker-green);
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: var(--radius);
+
+}
+
+.gomb:hover {
+    background-color:antiquewhite;
+    color: var(--text-color);
+    border: 5px solid var(--text-color);
 }
 /*.kartya {
     margin: auto;
